@@ -1,0 +1,11 @@
+{% extends 'shituation/base.html' %}
+{% block content %}
+
+<div class="inline-group">
+  <img width="200" height="250" src="{{ live_.poster.url }}">
+    <a href="{% url 'live_videos' pk=live_.pk %}"><h1>Videos</h1></a>
+    <a href="{% url 'live_photos' pk=live_.pk %}"><h1>Photos</h1></a>
+
+</div>
+
+{% endblock content %}

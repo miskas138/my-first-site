@@ -1,0 +1,12 @@
+{% extends 'shituation/base.html' %}
+{% block content %}
+<h1 class="text">{{ demo.name }} Demo </h1><br><br>
+    {% for song in songs %}
+        <div class="inline-group"><iframe width="360" height="115" src="{{ song.youtube }}" frameborder="0" allowfullscreen></iframe>
+            <div align="right" class="inline-group"><a href="{% url 'lyrics' pk=song.pk %}" class="align-right">{{song.title}} - lyrics</a>
+                <div>In <a href="" class="align-right">{{ song.demo }}</a> Demo</div></div>
+
+            </div><br>
+    {% endfor %}
+
+{% endblock content %}

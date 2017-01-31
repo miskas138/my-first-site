@@ -1,0 +1,12 @@
+{% extends 'shituation/base.html' %}
+{% block content %}
+
+{% for live in lives %}
+   <div class="inline-group">
+       <h2>{{live.location}}</h2>
+       <p>{{ live.city }}</p>
+       <p>{{ live.live_date }}</p>
+       <a href="{% url 'live_details' pk=live.pk %}"> <img width="200" height="250" src="{{ live.poster.url }}"></a><br>
+    </div>
+  {% endfor %}
+{% endblock content %}

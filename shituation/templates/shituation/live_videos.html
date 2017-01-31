@@ -1,0 +1,7 @@
+{% extends 'shituation/base.html' %}
+{% block content %}
+    <h1 class="text">In Live {{ live_.location }}</h1> <h5 class="text">{{ live_.city }} {{ live_.live_date }}</h5>
+{% for live_video in live_videos %}
+  <div class="text"> <iframe width="560" height="315" src="{{ live_video.video }}" frameborder="0" allowfullscreen></iframe></div>
+{% endfor %}
+{% endblock content %}

@@ -1,0 +1,22 @@
+{% extends 'shituation/base.html' %}
+{% block content %}
+<br><br><br><br>
+{% for post in posts %}
+    <div class='post'>
+       <div class='date'>
+            <p>published : {{ post.published_date }}</p>
+        </div>
+       <h1><a href="">{{ post.title }}</a></h1>
+      <p>{{ post.text | linebreaks }}</p>
+        {% if post.live %}
+            <div class="poster"><img src="{{ post.live.poster.url }}" height="500" width="500"></div>
+
+                   {% for foto in post.live.photo.all %}
+                    <div><img src="{{ foto.photo.url }}" width="500" height="500"></div>
+{% endfor %}
+        {% endif %}
+    
+   </div>
+{% endfor %}
+{% endblock content %}
+

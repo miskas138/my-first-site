@@ -1,0 +1,10 @@
+{% extends 'shituation/base.html' %}
+{% block content %}
+POUTSAAAAAAAAAAAAAAAAAA!!!!!!!!!!<br>
+<img src="{{ demo.cover.url }}"><br>
+{% for song in songs %}
+    <iframe width="560" height="315" src="{{ song.youtube }}" frameborder="0" allowfullscreen></iframe><br>
+    {{ song.lyrics }}<br>
+{% endfor %}
+{% endblock content %}
+

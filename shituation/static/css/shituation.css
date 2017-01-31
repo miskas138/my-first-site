@@ -1,0 +1,191 @@
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-image: url("/media/navback.png");
+    background-size: 75%;
+
+    background-position-x: 315px;
+    background-position: center;
+
+    background-repeat: no-repeat;
+    top: 0%;
+    color: #f1f1f1;
+    height: 25%;
+    border-bottom: 10px solid rgba(30, 8, 60, 0.97);
+
+}
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: #d31bff;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+body {
+    background-image: url("/media/Red-Brick-Wall-2048x2048.jpg");
+     background-size: 100%;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.content-container {
+    display: table;
+   margin: auto;
+
+}
+.cont{
+    text-align: left;
+    color: #f1f1f1;
+    background-color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    margin-right: 260px;
+    margin-left: 260px;
+    margin-top: 80px;
+    margin-bottom: 0%;
+    border-style: double;
+    border-color: #1e083c;
+    background-image: url('/media/immage.jpg');
+    background-size: 400%;
+}
+
+
+    .active {
+    background-color: #4CAF50;
+    color: white;
+}
+    nav{
+        background-color: black;
+    }
+    #shituation_head{
+        text-align: center;
+        padding: 20px 20px 20px 40px;
+        font-size: 36pt;
+    }
+#search11{
+
+
+    height: 65%;
+    width: 10%;
+    margin-right: 110px;
+
+}
+    #image2{
+        position: absolute;
+        top: 60px;
+        height: 60%;
+    width: 10%;
+    margin-left: 20px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+ #miskas{
+
+
+    width: 80%;
+     margin-left: 10%;
+
+ }
+
+.inline-group{
+    display: inline-block;
+    text-align: center;
+    
+
+}
+.header{
+    text-align: center;
+}
+.text{
+    text-align: center;
+}
+.mySlides {
+    display:none;
+
+}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+input[type=text] {
+
+     position: absolute;
+    right: 20px;
+    top: 50px;
+
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: black;
+    background-image: url('/media/Search-icon.png');
+    background-size: 50px;
+    
+    color: #f9f9f9;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 50px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 20%;
+}
+.poster{
+    text-align: center;
+}
+.post_header{
+    text-align: center;
+    font-family: "Franklin Gothic Heavy";
+    color: blueviolet;
+}

@@ -1,0 +1,10 @@
+{% extends 'shituation/base.html' %}
+{% block content %}
+
+{% for demo in demos %}
+   <div class="inline-group">
+       <p>{{demo.name}}</p>
+       <a href="{% url 'demo_details' pk=demo.pk %}"> <img width="300" height="300" src="{{ demo.cover.url }}"></a><br>
+    </div>
+  {% endfor %}
+{% endblock content %}

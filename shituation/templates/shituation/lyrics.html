@@ -1,0 +1,9 @@
+{% extends 'shituation/base.html' %}
+{% block content %}
+
+
+    <p>{{ song.demo.date }}</p>
+    <h1>{{ song.title }}</h1>
+    <p>{{ song.lyrics|linebreaks }}</p>
+
+{% endblock content %}
