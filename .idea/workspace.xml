@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6df7df77-ccc0-4e6e-8d35-6aaabf8fe2a4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shituation/templates/shituation/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myproject/settings.py" afterPath="$PROJECT_DIR$/myproject/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shituation/static/css/shituation.css" afterPath="$PROJECT_DIR$/shituation/static/css/shituation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shituation/templates/shituation/base.html" afterPath="$PROJECT_DIR$/shituation/templates/shituation/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shituation/urls.py" afterPath="$PROJECT_DIR$/shituation/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shituation/views.py" afterPath="$PROJECT_DIR$/shituation/views.py" />
-    </list>
+    <list default="true" id="6df7df77-ccc0-4e6e-8d35-6aaabf8fe2a4" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
