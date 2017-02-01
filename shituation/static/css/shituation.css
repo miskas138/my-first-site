@@ -189,3 +189,14 @@ input[type=text]:focus {
     font-family: "Franklin Gothic Heavy";
     color: blueviolet;
 }
+
+#about{
+    position: absolute;
+    right: 5px;
+}
+
+#facebook{
+    position: absolute;
+    right: 70px;
+
+}

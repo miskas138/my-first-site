@@ -56,3 +56,6 @@ def live_photos(request, pk):
     live_=get_object_or_404(Live, pk=pk)
     live_photos = Photos.objects.filter(live__pk=pk)
     return render(request, 'shituation/live_photos.html',{'live_photos':live_photos, 'live_':live_})
+
+def about(request):
+    return render(request, 'shituation/about.html')
